@@ -1,0 +1,43 @@
+.bg-grey {
+    background: #EBEEF3;
+}
+.single-wcu-wrap {
+    margin-bottom: 30px;
+}
+
+.single-wcu-wrap .thumb {
+    margin-bottom: 20px;
+}
+.pd-top-98 {
+    padding-top: 98px;
+}
+.pd-bottom-60 {
+    padding-bottom: 60px;
+}
+.section-title {
+    margin-bottom: 45px;
+    position: relative;
+}
+
+.section-title h2 {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.section-title p {
+    font-size: 16px;
+    margin: 5px 0 0 0;
+}
+
+.section-title.style-white h2 {
+    color: #fff;
+}
+
+.section-title.style-white p {
+    color: #fff;
+}
+
+.section-title .btn {
+    margin-top: 30px;
+}

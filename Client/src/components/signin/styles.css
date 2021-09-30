@@ -1,0 +1,114 @@
+
+/* Signin page css */
+
+#signin{
+  margin: 200px auto;
+  padding-top: 67px;
+  padding-bottom: 87px;
+  /* border-radius: 25px; */
+}
+#signin form{
+  margin-right: 90px;
+  margin-left: 80px;
+}
+.form-group input{
+  width: 100%;
+  display: block;
+  border: none;
+  border-bottom: 2px solid #999;
+  padding: 6px 30px;
+  font-family: Poppins !important;
+  box-sizing: border-box !important;
+  font-size: 13px !important;
+  outline: none;
+}
+#signin .fInput label{
+  position: absolute ;
+  left: 0 ;
+  top: 20% ;
+}
+.form button{
+  margin-top: 50px;
+  margin-left: 3%;
+}
+.form-check-label{
+  padding-left: 25px;
+  
+}
+.form-check {
+  margin: 0px 3%;
+}
+.signup-image-link {
+  font-size: 16px;
+  color: #222;
+  text-decoration:revert;
+}
+.container .link{
+  margin-top: 50px;
+}
+form{
+  margin-top: 20px;
+}
+.signup-image-link:hover{
+  text-decoration: revert;
+
+}
+
+.social-login{
+  margin: 50px 3% 0px 3% ;
+  display: flex;
+}
+.socials {
+  padding-left: 10px;
+}
+.socials li{
+  padding: 5px;
+  list-style: none;
+  display: inline-block;
+}
+.socials li a{
+ text-decoration: none;
+}
+.social-title{
+  margin-top: 10px;
+}
+.socials .bxl-facebook{
+  padding: 10px;
+  color: #fff;
+  font-size: 14px;
+  background: #3b5998;
+  /* text-align: center; */
+  border-radius: 5px;
+}
+.socials .bxl-google-plus{
+  padding: 10px;
+  color: #fff;
+  font-size: 14px;
+  background: #e72734;
+  /* text-align: center; */
+  border-radius: 5px;
+}
+.socials .bxl-twitter{
+  padding: 10px;
+  color: #fff;
+  font-size: 14px;
+  background: #1da0f2;
+  /* text-align: center; */
+  border-radius: 5px;
+}
+#reg-btn{
+  background-color: #47b2e4 !important;
+color: #fff;
+}
+
+@media (max-width: 575px) {
+  #signin form{
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}
+@media (max-width: 575px) {
+  #signin{
+    margin: 200px auto;
+  }
+}
