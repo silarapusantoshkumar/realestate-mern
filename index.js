@@ -13,7 +13,7 @@ mongoose.connect(url,{ useNewUrlParser: true, useUnifiedTopology: true }).then((
 }).catch((err)=>{
     console.log(err);
 })
-require('./models/index')
+require("./models/index")
 require("./models/posts")
 const router = app.use(require("./routing/router"))
 
